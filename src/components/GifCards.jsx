@@ -30,7 +30,7 @@ const GifCards = ({ category }) => {
 }
 
 GifCards.propTypes = {
-    category: PropTypes.string
+    category: PropTypes.string.isRequired
 }
 
 export default GifCards

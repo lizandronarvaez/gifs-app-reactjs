@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
-
+import PropTypes from 'prop-types';
 const AddCategory = ({ onCategoryNewValue }) => {
 
     const [inputValue, setInputValue] = useState("");
@@ -20,7 +20,7 @@ const AddCategory = ({ onCategoryNewValue }) => {
         setInputValue("");
     }
     return (
-        <form onSubmit={handleSubmitForm}>
+        <form onSubmit={handleSubmitForm} aria-label='form'>
             <input
                 type="text"
                 name="buscador"
@@ -35,6 +35,10 @@ const AddCategory = ({ onCategoryNewValue }) => {
         </form>
 
     )
+}
+
+AddCategory.propTypes = {
+    onCategoryNewValue: PropTypes.func.isRequired
 }
 
 export default AddCategory
