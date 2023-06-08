@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <AddCategory /> Realizar un snapshot al componente 1`] = `
+<div>
+  <form
+    aria-label="form"
+  >
+    <input
+      name="buscador"
+      placeholder="Buscar Gifs"
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Buscar Gifs
+    </button>
+  </form>
+</div>
+`;

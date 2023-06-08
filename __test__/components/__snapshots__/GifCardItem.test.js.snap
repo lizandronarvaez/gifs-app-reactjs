@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <GifCardItem /> Debe realizar un snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Personaje"
+      class="card-image"
+      src="http://localhost/Personaje-url"
+    />
+    <p
+      class="card-title"
+    >
+      Personaje
+    </p>
+  </div>
+</div>
+`;
